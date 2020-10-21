@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Dark Site",
+    "version": "0.1pre0",
+    
+    "description": "Adds dark theme to websites.",
+
+    "content_scripts": [
+        {
+            "matches": ["http://*.quera.ir/problemset/*", "https://*.quera.ir/problemset/*"],
+            "css": ["quera.css"]
+        }
+    ]
+}

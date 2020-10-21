@@ -1,0 +1,56 @@
+body {
+    background-color: #111111;
+    color: #cecece;
+}
+
+pre {
+    background-color: #0d0a09 !important;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: #fff;
+}
+
+label {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+h3, h4 {
+    color: #eee !important;
+}
+
+.top-bar {
+    background-color: #000 !important;
+}
+
+.ui.menu {
+    background-color: #111111 !important;
+}
+
+#top_bar:not(.no-border) {
+    border-bottom-color: #232323;
+}
+
+.ui.segment {
+    background: #000;
+}
+
+.item:not(.fluid) {
+    color: #eeeeee !important;
+}
+
+.ui.divider {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.menu, .ui.selection.dropdown {
+    background-color: #000 !important;
+}
+
+.text {
+    color: #eee !important;
+}
+
+.ui.basic.buttons, .ui.basic.button {
+    color: #eee !important;
+}
